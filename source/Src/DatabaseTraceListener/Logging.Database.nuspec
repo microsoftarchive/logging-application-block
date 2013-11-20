@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata schemaVersion="2">
+    <id>EnterpriseLibrary.Logging.Database</id>
+    <version>$Microsoft_Practices_EnterpriseLibrary_Logging_Database_Version$</version>
+    <title>Logging Application Block Database Provider (PRE-RELEASE)</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft; patterns-and-practices</owners>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>http://lab.codeplex.com</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This logging provider lets developer use the Data Access Application Block to store log entries.</description>
+    <summary>This logging provider lets developer use the Data Access Application Block to store log entries.</summary>
+    <tags>entlib entlib6 Enterprise Library data daab dab logging lab LOB futures OSS</tags>
+    <dependencies>
+      <dependency id="EnterpriseLibrary.Logging" version="$Microsoft_Practices_EnterpriseLibrary_Logging_Version$" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="NuGet\Readme.txt" target="" />
+    <file src="NuGet\tools\SharedCommon\install.ps1" target="tools" />
+    <file src="NuGet\tools\SharedCommon\Utils.psm1" target="tools" />
+    <file src="Src\DatabaseTraceListener\Scripts\CreateLoggingDatabase.sql" target="scripts" />
+    <file src="Src\DatabaseTraceListener\Scripts\CreateLoggingDatabaseObjects.sql" target="scripts" />
+    <file src="Src\DatabaseTraceListener\Scripts\CreateLoggingDb.cmd" target="scripts" />
+  </files>
+</package>
