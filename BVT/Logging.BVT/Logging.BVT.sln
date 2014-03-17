@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging.BVT", "Logging.BVT.csproj", "{CA916A2C-5D4A-4CDE-A185-50967942E6F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "..\..\Source\Src\Logging\Logging.csproj", "{6AC97717-899D-4F72-BC5B-2C37959CD4FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging.Database", "..\..\Source\Src\DatabaseTraceListener\Logging.Database.csproj", "{5DC01A57-1DB2-48B9-AEB3-2BFAE9089FD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging.MsmqDistributor", "..\..\Source\Src\MsmqDistributor\Logging.MsmqDistributor.csproj", "{808F5173-C16B-4599-9C2C-9A704A6BD59C}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://entlib.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Logging.BVT.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA916A2C-5D4A-4CDE-A185-50967942E6F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA916A2C-5D4A-4CDE-A185-50967942E6F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA916A2C-5D4A-4CDE-A185-50967942E6F5}.Debug|x86.ActiveCfg = Debug|x86
+		{CA916A2C-5D4A-4CDE-A185-50967942E6F5}.Debug|x86.Build.0 = Debug|x86
+		{CA916A2C-5D4A-4CDE-A185-50967942E6F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA916A2C-5D4A-4CDE-A185-50967942E6F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA916A2C-5D4A-4CDE-A185-50967942E6F5}.Release|x86.ActiveCfg = Release|x86
+		{CA916A2C-5D4A-4CDE-A185-50967942E6F5}.Release|x86.Build.0 = Release|x86
+		{6AC97717-899D-4F72-BC5B-2C37959CD4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC97717-899D-4F72-BC5B-2C37959CD4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC97717-899D-4F72-BC5B-2C37959CD4FF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6AC97717-899D-4F72-BC5B-2C37959CD4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC97717-899D-4F72-BC5B-2C37959CD4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC97717-899D-4F72-BC5B-2C37959CD4FF}.Release|x86.ActiveCfg = Release|Any CPU
+		{5DC01A57-1DB2-48B9-AEB3-2BFAE9089FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC01A57-1DB2-48B9-AEB3-2BFAE9089FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC01A57-1DB2-48B9-AEB3-2BFAE9089FD7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5DC01A57-1DB2-48B9-AEB3-2BFAE9089FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC01A57-1DB2-48B9-AEB3-2BFAE9089FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DC01A57-1DB2-48B9-AEB3-2BFAE9089FD7}.Release|x86.ActiveCfg = Release|Any CPU
+		{808F5173-C16B-4599-9C2C-9A704A6BD59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808F5173-C16B-4599-9C2C-9A704A6BD59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808F5173-C16B-4599-9C2C-9A704A6BD59C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{808F5173-C16B-4599-9C2C-9A704A6BD59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808F5173-C16B-4599-9C2C-9A704A6BD59C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{808F5173-C16B-4599-9C2C-9A704A6BD59C}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
